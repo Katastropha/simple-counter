@@ -1,0 +1,103 @@
+body {
+    background-image: url("015.jpg");
+    background-size: cover;    
+    background-position: top center;
+    background-color: #212529;
+    font-family: 'Bebas Neue', 'Righteous';
+    font-weight: bold;
+    text-align: center;
+    color: #353535;   
+}
+
+/* --------------------------------------- */
+h1 {
+    margin: 50px 0px 10px;
+}
+
+/* --------------------------------------- */
+h2 {
+    font-size: 50px;
+    margin: 0px 0px 60px;    
+}
+
+.h2_color {
+    color: #a9927d;
+}
+
+/* --------------------------------------- */
+button {   
+    display: inline-block;
+    width: 200px;   
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn_increment_save {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* --------------------------------------- */
+
+#increment-btn {
+  background: #3c6e71;
+  border: 1px solid #3c6e71; 
+  color: #d9d9d9;   
+}
+
+#increment-btn:hover,
+#increment-btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #353535;
+}
+
+#increment-btn:active {
+  opacity: .5;
+}
+
+/* --------------------------------------- */
+
+#save-btn {
+  background: #284b63;
+  border: 1px solid #284b63;
+  color: #d9d9d9;
+}
+
+#save-btn:hover,
+#save-btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #353535;
+}
+
+#save-btn:active {
+  opacity: .5;
+}
+
+/* -------------------------------------- */
+
+.save-el {
+    color: #353535;
+}
+
+.saved_count {
+    color: #353535;
+}
